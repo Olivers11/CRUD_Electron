@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+</head>
+<body>
+    <style>
+        #btn_:hover{
+            background: #007ACC;
+            color: white;
+        }
+    </style>
+    <h2 style="text-align: center;">Electron y Mysql</h2>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 my-auto">
+                <form id="forma" class="card card-body bg-light" action="">
+                    <div class="form-group">
+                        <input style="margin-top: 1px;" autofocus class="form-control" type="text" id="name"  placeholder="Input your name">
+                    </div>
+                    <div class="form-group">
+                        <input style="margin-top: 1px;" class="form-control" type="text" id="carreer"  placeholder="You carreer">
+                    </div>
+                    <div class="form-group">
+                        <input style="margin-top: 1px;" class="form-control" type="text" id="age"  placeholder="Input your age">
+                    </div>
+                    <div class="form-group">
+                        <input style="margin-top: 3px;" id="btn_" class="btn btn-block btn-light text-black" type= "submit" value="Enter">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 my-auto">
+                <div id="personas"></div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <script src="app.js"></script>
+</body>
+</html>
